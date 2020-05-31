@@ -1,0 +1,11 @@
+<h4>Device Details<h4>
+<br/>
+<table class="table table-striped table-hover table-sm table-bordered table-responsive small">
+<thead class="thead-dark">
+<tr class="small"><th>DeviceName</th><th>Room</th><th>Mode</th><th>Interfaces</th><th>Route</th></tr>
+</thead>
+<tr  *ngFor="let device of devices" class="small">
+  <td>{{device.devicename}}</td><td>{{device.room}}</td><td>{{device.mode}}</td>
+  <td>{{device.interface}}</td><td>{{device.route}}</td>
+</tr>
+</table>

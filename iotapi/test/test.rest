@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/users/token
+content-type: application/json
+
+{
+    "username":"nagesh",
+    "password": "nagesh@123"
+}
+
+###
+
+
+GET http://localhost:3000/api/users
+content-type: application/json
+user:nagesh
+authorization : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im5hZ2VzaCIsInJvbGUiOiJBRE1JTiIsImp0aSI6IjM5ZTJjNjY0LWJkNTQtNGE5MS04NTg5LTM0MGExMjUxOGJhMCIsImlhdCI6MTU5MDc1NDcwNCwiZXhwIjoxNTkwNzU4MzA0fQ.MP45Kr9-nXxngrkqhG1tC5X9Q54F6K3COjad7JRphzY
+

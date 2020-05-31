@@ -1,0 +1,11 @@
+2020.05.18 12:27:56 INFO  started: Metals version 0.9.0 in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'
+2020.05.18 12:27:57 INFO  time: initialize in 0.4s
+2020.05.18 12:27:58 WARN  no build tool detected in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.05.18 15:14:32 INFO  shutting down Metals
+2020.05.29 07:47:16 INFO  started: Metals version 0.9.0 in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'
+2020.05.29 07:47:17 INFO  time: initialize in 0.7s
+2020.05.29 07:47:19 WARN  no build tool detected in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.05.29 07:54:22 INFO  shutting down Metals
+2020.05.29 13:08:46 INFO  started: Metals version 0.9.0 in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'
+2020.05.29 13:08:46 INFO  time: initialize in 0.51s
+2020.05.29 13:08:48 WARN  no build tool detected in workspace '/home/myhadoop/bigdata/prjs/node/piserver/client'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

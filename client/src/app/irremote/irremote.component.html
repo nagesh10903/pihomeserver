@@ -1,0 +1,24 @@
+<h1 mat-dialog-title><h6>{{ data.remote }} Remote</h6></h1>
+<div mat-dialog-content>
+<table mat-table class="text-xsmall">
+<small>
+  <tr *ngFor="let command of data.commands;let i=index">
+  <ng-template [ngIf]="i%3==0">
+    <td>
+    <button mat-mini-fab color="accent"  (click)="doircmd(data.cmdurl+'/'+data.commands[i])"><p><small>{{data.commands[i]}}</small></p></button>
+    </td>
+     <td>
+    <button mat-mini-fab color="accent"  (click)="doircmd(data.cmdurl+'/'+data.commands[i+1])"><p><small>{{data.commands[i+1]}}</small></p></button>
+    </td>
+     <td>
+    <button mat-mini-fab color="accent"  (click)="doircmd(data.cmdurl+'/'+data.commands[i+2])"><p><small>{{data.commands[i+2]}}</small></p></button>
+    </td>
+    </ng-template>
+  </tr>
+  </small>
+</table>
+</div>
+<div mat-dialog-actions align="center">
+  <button mat-raised-button color="primary" class="btn-xs" (click)="onNoClick()">Close</button>
+ <!-- <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Yes</button> -->
+</div>

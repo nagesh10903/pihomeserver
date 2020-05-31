@@ -1,0 +1,23 @@
+[
+ {"deviceid":"1","controlerid":"1","devicename":"BULB","room":"LIVING","type":"D",
+    "mode":"CONTROLER","route":"LIVING/BULB","interface":["WIFI","IR"],"label":{"IR":"TWO","WIFI":"2"}},
+ {"deviceid":"1","controlerid":"2","devicename":"FAN","room":"LIVING","type":"D",
+    "mode":"CONTROLER","route":"LIVING/FAN","interface":["IR","WIFI","BLE"],"label":{"IR":"THREE","WIFI":"3","BLE":"03"}},
+ {"deviceid":"1","controlerid":"3","devicename":"LED1","room":"LIVING","type":"D",
+    "mode":"CONTROLER","route":"LIVING/LED1","interface":["IR","WIFI","BLE"],"label":{"IR":"ONE","WIFI":"1","BLE":"01"}},
+ {"deviceid":"2","controlerid":"","devicename":"CTV","room":"LIVING","type":"IR",
+      "mode":"IRREMOTE","route":"LIVING/CTV","interface":["IR"],"label":{"IR":"CTV"}},
+ {"deviceid":"3","controlerid":"","devicename":"CAM1","room":"LIVING","type":"WIFI",
+      "mode":"IPCAMERA","route":"LIVING/CAM1","interface":["WIFI"],"label":{"WIFI":"192.168.0.104:8081"}},
+
+  {"deviceid":"1","controlerid":"1","devicename":"BULB","room":"LAWN","type":"D",
+     "mode":"CONTROLER","route":"LIVING/BULB","interface":["WIFI","IR"],"label":{"IR":"TWO","WIFI":"2"}},
+  {"deviceid":"1","controlerid":"2","devicename":"FAN","room":"LAWN","type":"D",
+     "mode":"CONTROLER","route":"LIVING/FAN","interface":["IR","WIFI","BLE"],"label":{"IR":"THREE","WIFI":"3","BLE":"03"}},
+  {"deviceid":"1","controlerid":"3","devicename":"LED1","room":"LAWN","type":"D",
+     "mode":"CONTROLER","route":"LIVING/LED1","interface":["IR","WIFI","BLE"],"label":{"IR":"ONE","WIFI":"1","BLE":"01"}},
+  {"deviceid":"2","controlerid":"","devicename":"CTV","room":"LAWN","type":"IR",
+       "mode":"IRREMOTE","route":"LIVING/CTV","interface":["IR"],"label":{"IR":"CTV"}},
+  {"deviceid":"3","controlerid":"","devicename":"CAM1","room":"LAWN","type":"WIFI",
+       "mode":"IPCAMERA","route":"LIVING/CAM1","interface":["WIFI"],"label":{"WIFI":"192.168.0.104:8081"}}
+]

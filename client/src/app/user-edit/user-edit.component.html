@@ -1,0 +1,48 @@
+<div class="container">
+  <h6 class="card-header">User <small> [{{data.mode | titlecase}}] </small></h6>
+  <div class="card-body">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" formControlName="username" placeholder="UserName"
+          class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }"   />
+          <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+              <div *ngIf="f.username.errors.required">Username is required</div>
+          </div>
+      </div>
+      <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" formControlName="password" placeholder="Password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+          <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+              <div *ngIf="f.password.errors.required">Password is required</div>
+          </div>
+      </div>
+        <div class="form-group">
+          <label for="role">Role</label>
+          <select   formControlName="role"
+          class="form-control"    >
+          <option value="USER">User</option>
+          <option value="ADMIN">Admin</option>
+          </select>
+      </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select formControlName="category"
+           class="form-control"    >
+          <option value="CAT0">Category1</option>
+          <option value="CAT1">Category2</option>
+          </select>
+      </div>
+      <div align="center">
+      <button [disabled]="loading" class="btn btn-primary btn-sm" *ngIf="btnsubmit">Save</button>
+      <button (click)="onDelete(data.user.username)"  *ngIf="btndelete && data.isAdmin" class="btn btn-danger btn-sm">Delete</button>
+      <button (click)="onCancel()" class="btn btn-info btn-sm">Close</button>
+      <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+      </div>
+    </form>
+   </div>
+</div>
+
+
+
+

@@ -1,0 +1,10 @@
+
+<div class="clearfix">
+<ng-container *ngIf="rooms.length >0 ">
+  <ng-container *ngFor="let room of rooms">
+  <div  class="box" *ngIf="room === name || name ==='ALL'">
+     <app-view-room [roomdevices]="roomdevices" [room]="room" ></app-view-room>
+  </div>
+  </ng-container>
+</ng-container>
+</div>

@@ -1,0 +1,7 @@
+{
+    "Authenticate":"LOCAL",
+    "AuthenticateUrl":"/api/users/authenticate",
+    "AuthToken" : "k94875oiwujroiq20343203",
+    "TokenTimeout": 5000
+
+}

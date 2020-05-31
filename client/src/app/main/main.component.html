@@ -1,0 +1,30 @@
+<div class="container ">
+
+<p> This is a client portal of Home automation.<br/>
+ The available rooms will are displayed with the control devices or equipments.<br/>
+ The house hold equipments and any remote controled(IR remote/Wifi /Bluetooth devices) are provide with a remote interfaces.<br>
+ The camera enabled for viewing are shown for each room (if available and enabled).
+ </p>
+
+ <p> The client application runs and hoisted on Raspberry pi inside your home.<br/>
+  This can  be integrated with external internet portal by using the API services<br/>
+  With Port Forwarding the Raspberry pi can be accessed from internet, and hence the client site and it's API services.<br>
+ </p>
+
+  <p> The client application has two types of users Admin and Users.<br/>
+  Both the users  has acces to rooms and it's controls.<br/>
+  Admins have access to manage the devices and users,admin can restrict users to devices.<br>
+  The user details ,room configuration and device details are stored in json files on raspberry pi.<br/>
+  The configuration files can be edited by the Admin having the access(ie. ssh) to raspberry pi in their home.
+ </p>
+
+ <p> Technical Details:<br/>
+   Hardware: Raspberry pi Zero W or higher, IR Led/Interface<br/>
+   Software/tools: Rasbian, Nodejs(10.x+),express, Lirc, Angular 9, Angular Material<br/>
+   Configuration files: users.json, devices.json , piconfig.json  & lircd.conf(for IR)<br>
+  <br/>
+    The backend nodejs webserver provides the api services by using the lirc,http,webcam,bluetooth,etc interfaces of rasberry pi.<br>
+    The angular application uses the api services and provide the User interface.
+ </p>
+
+</div>

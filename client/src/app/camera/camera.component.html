@@ -1,0 +1,9 @@
+<h1 mat-dialog-title><h6>{{ data.room }} Camera ({{data.name}})</h6></h1>
+<div mat-dialog-content>
+<img src={{data.cameraUrl}} style="height:80%;" >
+
+</div>
+<div mat-dialog-actions align="center">
+  <button mat-raised-button color="primary"  (click)="onNoClick()">Close</button>
+ <!-- <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Yes</button> -->
+</div>

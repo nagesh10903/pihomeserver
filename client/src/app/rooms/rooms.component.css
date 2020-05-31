@@ -1,0 +1,16 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

@@ -1,0 +1,11 @@
+[
+{"room":"LIVING","mode":"CONTROLER","IR":{"remote":"892_MAIN","ON":"{n}_ON","OFF":"{n}_OFF","TGL":"{n}"},
+    "WIFI":{"route":"192.168.0.62/","ON":"SW{n}OFF","OFF":"SW{n}ON","TGL":"SW{n}TGL"},
+    "BLE":{"name":"LIV_R1","ON":"SW{n}ON","OFF":"SW{n}OFF","TGL":"TGL{n}"}},
+{"room":"BED1","mode":"CONTROLER","IR":{"remote":"892_BED1","ON":"{n}_ON","OFF":"{n}_OFF","TGL":"{n}"},
+   "WIFI":{"route":"192.168.0.63/API/","ON":"SW{n}ON","OFF":"SW{n}OFF","TGL":"SW{n}TGL"},
+   "BLE":{"name":"BED1","ON":"SW{n}ON","OFF":"SW{n}OFF","TGL":"TGL{n}"}},
+{"room":"BED2","mode":"CONTROLER","IR":{"remote":"892_BED2","ON":"{n}_ON","OFF":"{n}_OFF","TGL":"{n}"},
+   "WIFI":{"route":"192.168.0.64/API/","ON":"SW{n}ON","OFF":"SW{n}OFF","TGL":"SW{n}TGL"},
+   "BLE":{"name":"BED2","ON":"SW{n}ON","OFF":"SW{n}OFF","TGL":"TGL{n}"}}
+] 
